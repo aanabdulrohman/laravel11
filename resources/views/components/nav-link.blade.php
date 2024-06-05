@@ -1,2 +1,2 @@
 @props(['active'=>false])
-<a {{ $attributes }} class="{{ $active ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white' }} rounded-md px-3 py-2 text-sm font-medium" aria-current="{{ $active ? 'page' : false }}">{{ $slot }}</a>
+<a {{ $attributes }} class="{{ $active ? 'bg-white text-green-700' : 'text-white hover:bg-slate-200 hover:text-green-700' }} rounded-lg px-3 py-2 text-sm font-medium" aria-current="{{ $active ? 'page' : false }}">{{ $slot }}</a>
