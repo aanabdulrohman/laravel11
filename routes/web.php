@@ -25,6 +25,10 @@ Route::get('/contact', function () {
     return view('contact', ['title' => 'Contact page']);
 });
 
+Route::get('/login', function () {
+    return view('login');
+});
+
 Route::get('/posts/{post:slug}', function (Post $post) {    
         return view('post', ['title' => 'Single Post', 'post' => $post]);
 });

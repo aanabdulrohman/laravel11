@@ -49,7 +49,7 @@
       </div>
       <div class="border-t border-green-400 pb-3 pt-4 space-y-1">
         <div class="flex justify-center">
-          <button class="block rounded-full px-36  py-2 bg-white text-green-700 text-sm font-medium">Masuk</button>
+          <a href="/login"><button class="block rounded-full px-36  py-2 bg-white text-green-700 text-sm font-medium">Masuk</button></a>
         </div>
       </div>
     </div>

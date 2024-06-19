@@ -13,18 +13,15 @@
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 <body class="h-full">
-<div class="min-h-full">
-  
+<div class="min-h-full"> 
   <x-navbar></x-navbar>
   {{-- <x-header>{{ $title }}</x-header> --}}
-  <main class="border-solid ">
+  <main class="border-solid">
     <div class="">
       {{ $slot }}
     </div>
-    <div class="border border-solid bg-slate-300">
-      {{-- {{ $lot }} --}}
-    </div>
   </main>
+  <x-footer></x-footer>
 </div>
 
 </html>
